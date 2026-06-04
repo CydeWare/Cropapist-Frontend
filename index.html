@@ -424,7 +424,11 @@ if (selectedLng < -180 || selectedLng > 180 || selectedLat < -90 || selectedLat 
         // Remove old category classes
         resultCard.classList.remove("result-good", "result-medium", "result-bad")
 
-        percentile = percentile.toFixed(2);
+        if (percentile == null) {
+            percentile = "N/A";
+        } else {
+            percentile = percentile.toFixed(2);
+        }
 
         if (categoryLabelRaw === "good") {
           resultCard.classList.add("result-good")
