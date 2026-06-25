@@ -1,6 +1,5 @@
 # Cropapist-Frontend
 
----
 
 # Cropapist
 
