@@ -1,7 +1,5 @@
 # Cropapist-Frontend
 
-Here's a README description for the Cropapist frontend:
-
 ---
 
 # Cropapist
