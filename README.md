@@ -24,7 +24,7 @@ Cropapist is a web-based crop yield prediction application powered by machine le
 
 ## Tech Stack
 
-- **Frontend** — HTML, CSS, JavaScript
+- **Frontend** — HTML, CSS, JavaScript, deployed on Vercel
 - **Backend API** — Python, FastAPI, deployed on Azure App Service
 - **ML Model** — Random Forest Regressor (scikit-learn)
 - **Weather Data** — Open-Meteo Archive API and Seasonal Forecast API
